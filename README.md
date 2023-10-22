@@ -1,7 +1,7 @@
 # Web-Automation
 1. Write 20 Test Cases from different modules (including CRUD operation).
 2. For web Automation you can use the selenium/cypress library.
-3. Try to use POM/BDD framework.
+3. Try to use the POM/BDD framework.
 4. Generate Allure report.
 
 # Code:
@@ -68,6 +68,6 @@ print(f"Allure report will be saved in: {allure_results_directory}")
 
 # Run in Terminal to start test
 # pytest --alluredir=C:\Users\Hi\Desktop\Test2\allure-results Assignment2.py
-# npm install --save-dev allure-commandline
+# npm install --save-dev allure-command line
 # npx allure serve allure-results
 
