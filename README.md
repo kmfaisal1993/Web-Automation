@@ -5,23 +5,14 @@
 4. Generate Allure report. */
 
 # Code:
-
 import os
-
 import pandas as pd
-
 import pytest
-
 from selenium import webdriver
-
 from selenium.webdriver.common.by import By
-
 from selenium.webdriver.chrome.service import Service
-
 from selenium.webdriver.chrome.options import Options
-
 from webdriver_manager.chrome import ChromeDriverManager
-
 import allure
 
 # Get the directory of the Excel file using openpyxl
